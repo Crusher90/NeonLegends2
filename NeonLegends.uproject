@@ -1,0 +1,174 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "5.1",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "NeonLegends",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine",
+				"UMG"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		},
+		{
+			"Name": "Text3D",
+			"Enabled": true
+		},
+		{
+			"Name": "EnvironmentQueryEditor",
+			"Enabled": false
+		},
+		{
+			"Name": "AISupport",
+			"Enabled": false
+		},
+		{
+			"Name": "AlembicImporter",
+			"Enabled": false
+		},
+		{
+			"Name": "AndroidMedia",
+			"Enabled": false
+		},
+		{
+			"Name": "AndroidMoviePlayer",
+			"Enabled": false
+		},
+		{
+			"Name": "AndroidFileServer",
+			"Enabled": false
+		},
+		{
+			"Name": "AppleImageUtils",
+			"Enabled": false
+		},
+		{
+			"Name": "AppleMoviePlayer",
+			"Enabled": false
+		},
+		{
+			"Name": "ArchVisCharacter",
+			"Enabled": false
+		},
+		{
+			"Name": "AudioCapture",
+			"Enabled": false
+		},
+		{
+			"Name": "AvfMedia",
+			"Enabled": false
+		},
+		{
+			"Name": "CableComponent",
+			"Enabled": false
+		},
+		{
+			"Name": "ChaosClothEditor",
+			"Enabled": false
+		},
+		{
+			"Name": "ChaosCloth",
+			"Enabled": false
+		},
+		{
+			"Name": "ChaosNiagara",
+			"Enabled": false
+		},
+		{
+			"Name": "ChaosEditor",
+			"Enabled": false
+		},
+		{
+			"Name": "ChaosSolverPlugin",
+			"Enabled": false
+		},
+		{
+			"Name": "MeshPainting",
+			"Enabled": false
+		},
+		{
+			"Name": "InterchangeTests",
+			"Enabled": false
+		},
+		{
+			"Name": "InterchangeEditor",
+			"Enabled": false
+		},
+		{
+			"Name": "GLTFExporter",
+			"Enabled": false
+		},
+		{
+			"Name": "GooglePAD",
+			"Enabled": false
+		},
+		{
+			"Name": "GoogleCloudMessaging",
+			"Enabled": false
+		},
+		{
+			"Name": "LinuxDeviceProfileSelector",
+			"Enabled": false
+		},
+		{
+			"Name": "Metasound",
+			"Enabled": false
+		},
+		{
+			"Name": "LocationServicesBPLibrary",
+			"Enabled": false
+		},
+		{
+			"Name": "WebMMoviePlayer",
+			"Enabled": false
+		},
+		{
+			"Name": "OnlineSubsystemUtils",
+			"Enabled": false
+		},
+		{
+			"Name": "OnlineSubsystemIOS",
+			"Enabled": false,
+			"SupportedTargetPlatforms": [
+				"IOS",
+				"TVOS"
+			]
+		},
+		{
+			"Name": "OnlineSubsystemGoogle",
+			"Enabled": true
+		},
+		{
+			"Name": "OnlineFramework",
+			"Enabled": true
+		},
+		{
+			"Name": "Paper2D",
+			"Enabled": false
+		},
+		{
+			"Name": "SpeedTreeImporter",
+			"Enabled": false
+		},
+		{
+			"Name": "WmfMedia",
+			"Enabled": false
+		},
+		{
+			"Name": "WindowsMoviePlayer",
+			"Enabled": false
+		}
+	]
+}
